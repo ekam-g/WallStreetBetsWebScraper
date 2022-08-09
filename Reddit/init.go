@@ -11,7 +11,7 @@ type Scrape struct {
 }
 
 func (Scrape) Init() (err error, client *reddit.Client) {
-	credentials := reddit.Credentials{ID: "id", Secret: "MtR7jkXVNykBxeivt0181FOk40k3jA", Username: "username", Password: "password"}
+	credentials := reddit.Credentials{ID: "id", Secret: "heyyyy there buddy look away!", Username: "username", Password: "password"}
 	client, err = reddit.NewClient(credentials)
 	if err != nil {
 		panic(err)
